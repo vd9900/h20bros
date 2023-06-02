@@ -1,0 +1,440 @@
+.console {
+    border: 1px solid red;
+}
+
+.flex {
+    display: flex;
+}
+.flex-col {
+    flex-direction: column;
+}
+.item-center {
+    align-items: center;
+}
+.justify-center {
+    justify-content: center;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.font-1 {
+    font-size: 2.2rem;
+}
+.font-2 {
+    font-size: 1.5rem;
+}
+.font-median {
+    font-weight: 600;
+}
+
+.hidden {
+    display: none;
+}
+.curoser-pointer {
+    cursor: pointer;
+}
+
+.footer-heading {
+    color: #fff;
+    font-size: 1.4rem;
+    padding: 0.7rem 0.7rem 0.7rem 0;
+    border-bottom: 2px solid tomato;
+    position: relative;
+}
+.footer-heading::after {
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    height: 8px;
+    width: 2px;
+    background-color: tomato;
+}
+
+.footer-1-container {
+    flex-wrap: wrap;
+}
+.footer-1-container > div {
+    padding: 1rem;
+}
+.footer-1-container__Service-links {
+    list-style: none;
+    padding: 0.8rem;
+}
+.footer-1-container__Service-links > li > a {
+    text-decoration: none;
+    color: #fff;
+}
+.footer-1-container__Service-links > li > a:hover {
+    color: #2baf38;
+    /* padding: 100px; */
+}
+.slider-section {
+    position: relative;
+}
+.slider-container {
+    padding: 4rem;
+
+    overflow: hidden;
+}
+.slider-container-title {
+    color: #0087ca;
+    font-family: " sans-serif";
+    font-size: 1.5rem;
+    text-align: center;
+}
+.slider-container-cards {
+    overflow: hidden;
+    padding: 2rem 1.5rem;
+}
+.slider-container-card {
+    /* width: %; */
+    border: 1px solid #eee5e5;
+    padding: 1rem;
+    flex: 1;
+    /* margin: 0 10px; */
+    border-radius: 6px;
+}
+.slider-container-card-image {
+    text-align: center;
+    width: 100%;
+}
+.slider-container-card-image > img {
+    border-radius: 15px;
+    height: 350px;
+    width: 350px;
+}
+.slider-container-card-detail :first-child {
+    text-align: center;
+    font-weight: 700;
+    color: #000000;
+}
+.slider-container-card-detail:last-child {
+    font-weight: 500;
+    color: #4e4a4a;
+}
+.slider-container-card-detail-learnmore {
+    color: #0092d8;
+    margin: 0 auto;
+    font-size: 0.9rem;
+}
+.slider-container-card-detail-learnmore:hover {
+    text-decoration: underline;
+}
+.slider-container-card-arrow {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    bottom: 50%;
+    padding: 0 2rem;
+}
+.next-button {
+    background-image: url("https://pristinegreencleaning.com/assets/icons/icn--more-svg2.svg");
+    width: 2.813rem !important;
+    height: 2.813rem !important;
+    background-repeat: no-repeat;
+    background-color: #4078bc;
+    background-size: auto 75%;
+    background-position: center;
+    border-radius: 8px 0 0 8px;
+}
+.prev-button {
+    background-image: url("https://pristinegreencleaning.com/assets/icons/icn--more-svg2.svg");
+    width: 2.813rem !important;
+    height: 2.813rem !important;
+    background-repeat: no-repeat;
+    background-color: #4078bc;
+    background-size: auto 75%;
+    background-position: center;
+    border-radius: 8px 0px 0px 8px;
+    transform: scale(-1);
+}
+.text-skyblue {
+    color: #0092d8;
+}
+.bg-lightgray {
+    background-color: #eeee;
+}
+
+.btn-success {
+    background-color: #2baf38 !important;
+}
+
+.btn-lightgreen {
+    background-color: #82c12d !important;
+}
+.btn-lightgreen :hover {
+    background-color: #3b3b3b;
+}
+.text-green {
+    /* filter: drop-shadow(0 0 4px #e8e0e0); */
+    font-size: 3.2rem !important;
+    color: #2baf38 !important;
+}
+.bg-lightgray-1 {
+    background-color: #d2f2d7;
+}
+.bg-lightgreen {
+    background-color: #2baf38 !important;
+}
+.border-lightgreen {
+    border: 1px solid #2baf38 !important;
+}
+.text-green-1 {
+    color: #2baf38 !important;
+}
+.text-shadow {
+    text-shadow: 0 0 36px #fbfbfb;
+    -webkit-filter: drop-shadow(2px 4px 6px #fff);
+    filter: drop-shadow(2px 4px 6px #fff);
+}
+.tex-white {
+    color: #fff !important;
+}
+.text-blue {
+    color: #4873b7;
+}
+.aspect-1-1 {
+    width: 100%;
+    max-height: 100%;
+    height: 300px !important;
+}
+.bg-blue {
+    background-color: #4873b7;
+}
+
+.text-lightgray {
+    color: #4e4a4a;
+}
+.bg-lightgray-1 {
+    background-color: #eee;
+}
+
+.text-ellipsis-2 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.text-ellipsis-3 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+.coupons-container {
+    overflow-y: auto !important;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+
+.coupons-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.coupons-container::-webkit-scrollbar-track {
+    background-color: darkgrey;
+}
+
+.coupons-container::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
+}
+
+.coupons-lists > li {
+    list-style: none;
+    /* width: 300px; */
+    /* height: fit-content; */
+    font-size: 0.9rem;
+    /* border-style: groove; */
+    /* height: auto ; */
+    border: dashed 2px #fff !important;
+}
+.featured-post-lists > li {
+    display: flex !important;
+}
+.coupons-lists > li > p {
+    margin: 0 !important;
+}
+.featured-post-lists > li {
+    list-style: none;
+}
+.featured-post-lists > li > div {
+    display: flex;
+    gap: 0.5rem;
+    /* background-color: #000; */
+}
+
+.lptw-header-link {
+    color: #000 !important;
+    font-size: 1rem !important;
+    display: block;
+    font-weight: 600;
+}
+.custom-pagination > li > a {
+    color: #000;
+    border-radius: 50%;
+}
+.custom-pagination > li :focus {
+    outline: none !important;
+    box-shadow: none;
+}
+.active {
+    background-color: #2baf38 !important;
+    color: #fff !important;
+}
+.tab-pane {
+    background-color: transparent !important;
+    color: #4e4a4a !important;
+}
+.white-text-shadow {
+    text-shadow: 0 0 36px #fbfbfb;
+    -webkit-filter: drop-shadow(2px 4px 6px #fff);
+    filter: drop-shadow(2px 4px 6px #fff);
+}
+
+/* baby  section */
+
+.baby-section {
+    background-image: url("https://pristinegreencleaning.com/assets/images/baby-carpet-cleaning (1).jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 596px;
+    background-size: cover;
+}
+/* Media query for mobile devices */
+/* @media only screen and (max-width: 768px) {
+  .baby-section {
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+} */
+
+/* Animations */
+.phone-vibrate {
+    animation: vibrate 0.5s infinite;
+}
+
+@keyframes vibrate {
+    0% {
+        transform: translate(0, 0);
+    }
+    25% {
+        transform: translate(-2px, 2px);
+    }
+    50% {
+        transform: translate(0, -4px);
+    }
+    75% {
+        transform: translate(2px, 2px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+/* Animations ends here */
+
+/* resoluation image of serivce sliders img */
+
+.service-slider-imgs {
+    object-fit: cover;
+    width: 400px;
+    height: 400px;
+    max-height: 400px;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 1/1;
+}
+
+/* styles for serivce area   */
+.service-area-heading {
+    font-family: serif;
+    font-weight: 600;
+    font-size: 48px !important;
+}
+/* service areas bulletpoints style */
+#bulletPoints p {
+    color: #fff;
+    font-size: 28px;
+    font-family: latoregular !important;
+    background: url("/assets/icons/circle-tick-icon-1.png") no-repeat left
+        center;
+    background-size: auto !important;
+    margin: 5px 0;
+    padding-left: 1.8em !important;
+    background-size: contain;
+    text-shadow: 0 0 4px #222;
+    -webkit-filter: drop-shadow(0 0 8px #222);
+    filter: drop-shadow(0 0 8px #222);
+}
+
+.serivce-area-imgs {
+    object-fit: cover;
+    height: 566px !important;
+}
+
+@media screen and (max-width: 650px) {
+    .serivce-area-imgs {
+        object-fit: cover;
+        max-height: 699px;
+    }
+}
+@media screen and (max-width: 625px) {
+    #bulletPoints p {
+        font-size: 22px;
+    }
+    .service-area-heading {
+        font-size: 35px !important;
+    }
+}
+
+/* fix for navbar issue options hidden in  when resize the small to large width */
+@media screen and (min-width: 992px) {
+    body {
+        overflow: auto !important;
+        max-height: unset !important;
+    }
+    .navbar-menu {
+        display: flex !important;
+    }
+}
+
+/* for trusted by banner images */
+.trusted-banner-imgs {
+    text-align: center;
+}
+.trusted-banner-imgs img {
+    max-width: 100% !important;
+    width: 60%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}
+
+.call-us-banner-num {
+    color: white;
+    font-weight: bold;
+    font-size: 3.2rem;
+    line-height: 72px;
+}
+
+.call-us-banner-para {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 420px) {
+    .call-us-banner-num {
+        font-size: 30px;
+    }
+
+    .call-us-banner-para {
+        font-size: 15px;
+    }
+}
+
+.w-img-250 {
+    width: 250px;
+    height: auto;
+}

@@ -1,0 +1,425 @@
+/*NAVBAR STYLES*/
+@media (min-width: 1200px) {
+    .container {
+        width: 1320px !important;
+    }
+}
+
+.myphone a {
+    color: #76d381 !important;
+    font-size: 40px !important;
+}
+
+.av-yelp-g {
+    display: none;
+}
+.social-mobile {
+    display: none;
+}
+@media (min-width: 991px) {
+    .justify-content-md-end {
+        justify-content: flex-end !important;
+    }
+    .av-yelp-g {
+        display: block;
+    }
+
+    .container-fluid {
+        padding-right: 150px;
+    }
+    .custom-nav-link {
+        font-weight: bold;
+        font-size: 14px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #333;
+        padding: 20px 0px;
+        margin: 0px 20px;
+        display: inline-block;
+        position: relative;
+        opacity: 0.75;
+    }
+
+    .custom-nav-link:hover {
+        opacity: 1;
+        color: #0087c9 !important;
+    }
+
+    .custom-nav-link::before {
+        transition: 300ms;
+        height: 5px;
+        content: "";
+        position: absolute;
+        background-color: #0087c9 !important;
+    }
+
+    .nav-link-ltr::before {
+        width: 0%;
+        bottom: 10px;
+        color: #0087c9 !important;
+    }
+
+    .nav-link-ltr:hover::before {
+        width: 100%;
+        color: #0087c9 !important;
+    }
+
+    nav .dropdown {
+        position: relative;
+    }
+    nav .dropdown:after {
+        content: "";
+        position: absolute;
+        right: 0;
+        top: 25px;
+        width: 7px;
+        height: 7px;
+        cursor: pointer;
+        transform: rotate(-45deg);
+        border-left: 2px solid #0087c9;
+        border-bottom: 2px solid #0087c9;
+        transition: 0.2s ease-in-out;
+    }
+    nav .dropdown:hover:after {
+        transform: rotate(135deg);
+    }
+    nav .dropdown .project {
+        position: absolute;
+        transform: translateX(-20px) translateY(5px);
+        width: 900px;
+
+        background-color: #0087c9;
+        padding: 20px;
+        border-radius: 10px;
+        height: 0px;
+        /* overflow: hidden; */
+        visibility: hidden;
+        transition: 0.2s ease-in-out;
+        z-index: 9999;
+    }
+    nav .dropdown:hover .project {
+        height: 400px;
+
+        visibility: visible;
+    }
+
+    nav .dropdown .project .drop-item {
+        list-style-type: none;
+        margin-bottom: 10px;
+        margin: 25px;
+    }
+    nav .nav-bar_item a {
+        position: relative;
+        display: block;
+        padding-bottom: 5px;
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    nav .nav-bar_item a:after {
+        content: "";
+        position: absolute;
+        width: 0%;
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: #fff;
+        transition: 0.1s ease-in-out;
+    }
+    nav .nav-bar_item a:hover:after {
+        width: 100%;
+    }
+}
+a:link {
+    text-decoration: none;
+}
+.main-nav-item--phone {
+    display: none;
+}
+.position-relative {
+    position: relative !important;
+    justify-content: right;
+}
+
+.custom-col {
+    display: flex;
+    flex: 1 0 0%;
+}
+.justify-content-between {
+    justify-content: space-between !important;
+}
+.d-flex {
+    display: flex;
+}
+
+.navbar .d-flex {
+    height: 66.71px;
+}
+
+.top-phone {
+    justify-content: center;
+    display: grid;
+    align-content: center;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    color: #fff;
+    padding: 10px 20px;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navbar-logo a img {
+    width: 180px;
+}
+
+.navbar-logo a {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.navbar-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-menu li {
+    margin: 0 10px;
+}
+
+.navbar-menu li a {
+    color: #0087c9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hamburger__toggle {
+    display: none;
+}
+
+.navbar-toggle span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
+}
+
+@media (max-width: 991px) {
+    .navbar {
+        width: 100%;
+    }
+
+    .container-fluid.mobb {
+        background-color: #7889b3;
+    }
+
+    .phone-hide {
+        display: none;
+    }
+    .navbar-menu {
+        display: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #333;
+        width: 100%;
+        padding: 10px 0;
+        overflow: auto;
+    }
+
+    .nav-active {
+        transition: top 0.3s;
+        display: block;
+        position: fixed;
+        top: 81px;
+        left: 0;
+        background-color: #0087c9;
+        width: 100%;
+        height: 100%;
+        padding: 10px 0;
+        z-index: 9999999;
+    }
+
+    .navbar-menu li {
+        margin: 10px;
+        border-bottom: 1px solid white;
+    }
+
+    .navbar-logo a img {
+        width: 200px;
+    }
+
+    .logo-res {
+        /*margin-right: 310px;
+    margin-left: 0px;*/
+        margin-right: 0px;
+        margin-left: 0px;
+        float: left;
+        justify-content: left;
+        display: flex;
+    }
+
+    .logo-res .navbar-logo img {
+        width: 175px;
+        height: 66.7px;
+    }
+
+    .navbar .container {
+        padding-right: 15px;
+        padding-left: 0px;
+        margin-right: auto;
+        margin-left: 0px;
+    }
+
+    /*toggle icon*/
+
+    .hamburger__toggle {
+        display: block;
+        position: relative;
+        background-color: transparent;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border: none;
+    }
+
+    /* give the span element and related pseudo-elements the appearance of white lines */
+    .hamburger__icon,
+    .hamburger__icon::before,
+    .hamburger__icon::after {
+        position: absolute;
+        width: 30px;
+        height: 2px;
+        border-radius: 4px;
+        background-color: #333;
+    }
+
+    /* center the span element in the middle of its containing button */
+    .hamburger__icon {
+        top: calc(50% - 2px);
+        left: calc(50% - 15px);
+    }
+
+    /* position the two pseudo-elements to the very left */
+    .hamburger__icon::before,
+    .hamburger__icon::after {
+        content: "";
+        left: 0;
+    }
+
+    /* this is the top dash of the hamburger */
+    .hamburger__icon::before {
+        bottom: 8px;
+    }
+
+    /* this is the bottom dash of the hamburger */
+    .hamburger__icon::after {
+        top: 8px;
+    }
+
+    /* TOGGLE STYLES FOR THE BUTTON */
+
+    /* rotate middle dash of hamburger */
+    .toggled .hamburger__icon {
+        height: 5px;
+        width: 54px;
+        left: 5px;
+        top: calc(50% - 2px);
+        transform: rotate(-45deg);
+    }
+
+    /* rotate bottom dash of hamburger counter clockwise */
+    .toggled .hamburger__icon::after {
+        width: 54px;
+        height: 5px;
+        top: -1px;
+        transform: rotate(-270deg);
+    }
+
+    /* hide the top dash by scaling it to 0 */
+    .toggled .hamburger__icon::before {
+        transform: scale(0);
+    }
+
+    /* TRANSITION */
+    /* adjust duration to see it happen slower */
+    .hamburger__icon,
+    .hamburger__icon::after {
+        transition: all 0.3s linear;
+    }
+
+    .logo-col {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .main-nav-item--phone {
+        display: block;
+        text-align: center;
+        float: left;
+        padding-top: 12px;
+    }
+
+    .navbar .our-socials {
+        padding: 10px;
+    }
+
+    .no-border {
+        border: none !important;
+    }
+
+    .social-mobile {
+        display: block;
+    }
+
+    .hide-mob {
+        display: none;
+    }
+
+    .project .drop-item {
+        border-bottom: 1px solid white;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .project {
+        background: gray;
+    }
+
+    .navbar-menu li a {
+        color: white;
+    }
+}
+/*END NAVBAR STYLES*/
+
+/*BODY STYLES*/
+
+/*END BODY STYLES*/
+
+/*CONTENT STYLES*/
+/**
+ * 1. Centers the content. Yes, it's a bit opinionated.
+ * 2. See the "width vs max-width" section
+ * 3. See the "Additional Padding" section
+ */
+.wrapper {
+    margin-right: auto; /* 1 */
+    margin-left: auto; /* 1 */
+
+    max-width: 960px; /* 2 */
+
+    padding-right: 10px; /* 3 */
+    padding-left: 10px; /* 3 */
+}
+/*END CONTENT STYLES*/

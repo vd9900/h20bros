@@ -1,0 +1,399 @@
+
+/*NAVBAR STYLES*/
+@media (min-width: 1200px) {
+  .container-nav {
+    width: 1320px !important;
+  }
+}
+.av-yelp-g-nav {
+  display: none;
+}
+.social-mobile-nav {
+  display: none;
+}
+@media (min-width: 991px) {
+  .justify-content-md-end-nav {
+    justify-content: flex-end !important;
+  }
+  .av-yelp-g-nav {
+    display: block;
+  }
+  .container-fluid-nav {
+    padding-right: 150px;
+  }
+
+  .nav-link-nav {
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 0px;
+    margin: 0px 20px;
+    display: inline-block;
+    position: relative;
+    opacity: 0.75;
+  }
+
+  .nav-link-nav:hover {
+    opacity: 1;
+  }
+
+  .nav-link-nav::before {
+    transition: 300ms;
+    height: 5px;
+    content: "";
+    position: absolute;
+    background-color: #fff;
+  }
+
+  .nav-link-ltr-nav::before {
+    width: 0%;
+    bottom: 10px;
+  }
+
+  .nav-link-ltr-nav:hover::before {
+    width: 100%;
+  }
+
+
+  nav .dropdown-nav {
+    position: relative;
+  }
+  nav .dropdown-nav:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 25px;
+    width: 7px;
+    height: 7px;
+    cursor: pointer;
+    transform: rotate(-45deg);
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transition: 0.2s ease-in-out;
+  }
+  nav .dropdown-nav:hover:after{
+    transform: rotate(135deg);
+  }
+  nav .dropdown-nav .project-nav {
+    position: absolute;
+    transform: translateX(-20px) translateY(5px);
+    width: 900px;
+
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    height: 0px;
+    visibility: hidden;
+    transition: 0.2s ease-in-out;
+  }
+  nav .dropdown-nav:hover .project-nav{
+    height: 400px;
+    
+    visibility: visible;
+  }
+
+  nav .dropdown-nav .project-nav .drop-item-nav {
+    list-style-type: none;
+    margin-bottom: 10px;
+  }
+  nav .nav-bar_item-nav a {
+    position: relative;
+    display; block; 
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  nav .nav-bar_item-nav a:after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    transition: 0.1s ease-in-out;
+  }
+  nav .nav-bar_item-nav a:hover:after {
+    width: 100%;
+  }
+
+
+
+}
+a:link { text-decoration: none; }
+.main-nav-item--phone-nav {
+  display: none;
+}
+.position-relative-nav {
+  position: relative !important;
+  justify-content: right;
+}
+
+.col-nav {
+  display: flex;
+  flex: 1 0 0%;
+}
+.justify-content-between-nav {
+  justify-content: space-between!important;
+}
+.d-flex-nav {
+  display: flex;
+}
+
+.navbar .d-flex-nav {
+  height: 66.71px;
+}
+
+.top-phone-nav {
+  justify-content: center;
+  display: grid;
+  align-content: center;
+}
+.navbar-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navbar-logo-nav a img {
+  width: 300px;
+}
+
+.navbar-logo-nav a {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.navbar-menu-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-menu-nav li {
+  margin: 0 10px;
+}
+
+.navbar-menu-nav li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hamburger__toggle-nav {
+  display: none;
+
+}
+
+.navbar-toggle-nav span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px 0;
+}
+
+@media (max-width: 991px) {
+  .navbar-nav {
+    width: 100%;
+  }
+
+  .phone-hide-nav {
+    display: none;
+  }
+  .navbar-menu-nav {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: #333;
+    width: 100%;
+    padding: 10px 0;
+
+  }
+
+  .navbar-menu-nav.active {
+    transition: top 0.3s;
+    display: block;
+    position: fixed;
+    top: 85px;
+    left: 0;
+    background-color: #333;
+    width: 100%;
+    height: 100%;
+    padding: 10px 0;
+
+  }
+
+  .navbar-menu-nav li {
+    margin: 10px;
+    border-bottom: 1px solid white;
+  }
+
+  
+
+  .navbar-logo-nav a img {
+    width: 200px;
+  }
+
+
+  .logo-res-nav {
+    /*margin-right: 310px;
+    margin-left: 0px;*/
+    margin-right: 0px;
+    margin-left: 0px;
+    float: left;
+    justify-content: left;
+    display: flex;
+  }
+
+  .logo-res-nav .navbar-logo-nav img {
+    width: 270px;
+    height: 66.7px;
+  }
+
+
+  .navbar-nav .container-nav {
+      padding-right: 15px;
+      padding-left: 0px;
+      margin-right: auto;
+      margin-left: 0px;
+  }
+
+  /*toggle icon*/
+
+  .hamburger__toggle-nav {
+    display:block;
+    position: relative;
+    background-color: transparent;
+    width: 60px; 
+    height: 60px;
+    border-radius:50%;
+    border:none;
+  }
+
+  /* give the span element and related pseudo-elements the appearance of white lines */
+  .hamburger__icon-nav,
+  .hamburger__icon-nav::before,
+  .hamburger__icon-nav::after {
+    position: absolute;
+    width: 30px; 
+    height: 2px;
+    border-radius: 4px;
+    background-color: white;
+  }
+
+  /* center the span element in the middle of its containing button */
+  .hamburger__icon-nav {
+    top: calc(50% - 2px);
+    left: calc(50% - 15px);
+  }
+
+  /* position the two pseudo-elements to the very left */
+  .hamburger__icon-nav::before,
+  .hamburger__icon-nav::after {
+    content: "";
+    left: 0;
+  }
+
+  /* this is the top dash of the hamburger */
+  .hamburger__icon-nav::before {
+    bottom: 8px;
+  }
+
+  /* this is the bottom dash of the hamburger */
+  .hamburger__icon-nav::after {
+    top: 8px;
+  }
+
+  /* TOGGLE STYLES FOR THE BUTTON */
+
+  /* rotate middle dash of hamburger */
+  .toggled-nav .hamburger__icon-nav {
+    height: 5px;
+    width: 54px;
+    left: 5px;
+    top: calc(50% - 2px);
+    transform: rotate(-45deg);
+  }
+
+  /* rotate bottom dash of hamburger counter clockwise */
+  .toggled-nav .hamburger__icon-nav::after {
+    width: 54px;
+    height: 5px;
+    top: -1px;
+    transform: rotate(-270deg);
+  }
+
+  /* hide the top dash by scaling it to 0 */
+  .toggled-nav .hamburger__icon-nav::before {
+    transform: scale(0);
+  }
+
+  /* TRANSITION */
+  /* adjust duration to see it happen slower */
+  .hamburger__icon-nav, .hamburger__icon-nav::after {
+    transition: all 0.3s linear;
+  }
+
+  .logo-col-nav {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .main-nav-item--phone-nav {
+    display: block;
+    text-align: center;
+    float: left;
+    padding-top: 12px;
+  }
+
+  .navbar-nav .our-socials-nav {
+    padding: 10px;
+  }
+
+  .no-border-nav {
+    border: none !important;
+  }
+
+  .social-mobile-nav {
+    display: block;
+  }
+
+  .navbar-menu-nav li a {
+    padding: 6px 8px 5px 7px !important;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 600;
+  }
+
+  .hide-mob-nav {
+    display: none;
+  }
+
+  .project-nav .drop-item-nav {
+    border-bottom: 1px solid white;
+  }
+
+  .project-nav {
+    background: gray;
+  }
+
+}
+/*END NAVBAR STYLES*/
+
+
