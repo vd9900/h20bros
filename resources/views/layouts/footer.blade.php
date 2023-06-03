@@ -100,31 +100,25 @@
                         <a href="{{ route('about-us') }}">About Us</a>
                     </li>
                     <li>
-                        <a href="{{ route('house_cleaning') }}">House
-                            Cleaning Services</a>
+                        <a href="{{ route('hour_24_plumbers') }}">24 Hours Plumber Serivces</a>
                     </li>
                     <li>
-                        <a href="{{ route('post_construct') }}">Post
-                            Construction Cleaningg</a>
+                        <a href="{{ route('commercial_plumbing_repair') }}">Commercial Plumbing Repair</a>
                     </li>
                     <li>
-                        <a href="{{ route('move_in') }}">Move In Cleaning
-                            Services</a>
+                        <a href="{{ route('drain_cleaning') }}">Drain Cleaning</a>
                     </li>
                     <li>
-                        <a href="{{ route('move_out') }}">Move Out Cleaning
-                            Services</a>
+                        <a href="{{ route('bathroom_plumbing') }}">Bathroom Plumbing</a>
                     </li>
                     <li>
-                        <a href="{{ route('apart_cleaning') }}">Apartment
-                            Cleaning Services </a>
+                        <a href="{{ route('hydro_jetting') }}">Hydro Jetting </a>
                     </li>
                     <li>
-                        <a href="{{ route('green_cleaning') }}">Green Cleaning</a>
+                        <a href="{{ route('water_heaters') }}">Water Heaters</a>
                     </li>
                     <li>
-                        <a href="{{ route('comm_cleaning') }}">Commercial
-                            Cleaning</a>
+                        <a href="{{ route('sewer_repair') }}">Sewer Repair</a>
                     </li>
                     <li>
                         <a href="{{ route('faqs') }}">FAQ’s </a>

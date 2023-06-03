@@ -1,6 +1,6 @@
 @extends('layouts.index')
 @section('title')
-    Apartment Cleaningg | {{ env('APP_NAME') }}
+    24 Hour Plumbers | {{ env('APP_NAME') }}
 @endsection
 
 @section('schema')
@@ -38,9 +38,9 @@
         </picture>
         <div class="p-4 p-lg-5 position-absolute bottom-0 w-100 h-100 pb-120">
             <div class="d-flex flex-col justify-content-end gap-4 h-100 py-4">
-                <h1 class="text-green">Apartment Cleaning </h1>
+                <h1 class="text-green">24 Hour Plumber Services </h1>
                 <h3 class="text-white text-center text-lg-start">
-                    Get apartment cleaning services in NYC
+                    Get 24 Hour Plumber services in NYC
                 </h3>
                 {{-- book now form --}}
                 @include('app.static_components.booknow_form')
@@ -58,42 +58,54 @@
 
 
 
-            <h1 class="text-center text-green fs-1 py-5">APARTMENT CLEANING SERVICES</h1>
+            <h1 class="text-center text-green fs-1 py-5">24 Hour Plumber Services</h1>
 
 
             <p><strong>
-                    Living in NYC, we are always busy. Whether its putting in the hours at work, going to the gym, taking
-                    care of the kids, grocery shopping or more, cleaning the apartment often falls lower in the priority
-                    list. That's ok! PristineGreen House Cleaning is here to offer you apartment cleaning services! From the
-                    kitchen to the bathroom, we have all your cleaning needs handled!
+                    Usually, plumbing problems don’t pop their heads up when it&#39;s convenient. They
+                    don’t adhere to business hours or working days. A plumbing problem may pop up
+                    anytime, any day. For urgent problems like this, you need an emergency plumber
+                    who offers an instant fix.
                 </strong></p>
-            <p><a class="fs-3" href="{{ route('green_cleaning') }}"><strong>Only Green and Non-Toxic Products</strong></a>
-            </p>
-            <p>All of our services offer green and non-toxic cleaning so you can be assured your apartment won't smell of
-                synthetic and unpleasant fragrances after our work. All the products we use have been certified by the US
-                EPA as part of their "Safer Choice" program! This means if you have e family, a pet, children, or are an
-                sensitive individual, you need not worry if the chemicals will be harmful or unpleasant!</p>
-            <p><a class="fs-3" href="{{ route('move_in') }}"><strong>Move In Cleaning Services</strong></a></p>
-            <p>When you move into a new apartment, you are looking for a fresh start. Sometimes the previous tenant or
-                landlord didn't have the same care as you do. That's why you need move in cleaning services for your
-                apartment. We will clean, scrub and polish every nook and cranny so you can be assured that the space you
-                will be living in is totally clean!</p>
-            <p><a class="fs-3" href="{{ route('move_out') }}"><strong>Move Out Cleaning Services</strong></a></p>
-            <p>Oftentime, in our leases, it is required that you leave the apartment as clean as when you moved into it.
-                Moving out can be stressful and cleaning the apartment may just be one last thing you don't want to do. Let
-                us take care of your move out cleaning services. From deep cleaning the kitchen to steam cleaning the
-                carpets to washing the floors and baseboards, we have it all covered for you! </p>
-            <p><a class="fs-3" href="{{ route('deep_cleaning') }}"><strong>Deep Cleaning Services</strong></a></p>
-            <p>Our lives are busy and we can forget, week after week, to do a deep cleaning. That's why its important to
-                hire us for your deep cleaning services which will scrub and clean all the nooks and crannies in your
-                apartment bringing it to a refreshingly clean state. We do everything from mopping thte floors, cleaning the
-                oven and cabinets, washing the windows, scrubbing the tub, and more! You will feel clean and at home again
-                in your apartment after we help!</p>
-            <p><a class="fs-3" href="{{ route('maid_cleaning') }}"><strong>Maid Services</strong></a></p>
-            <p>We often have busy lives and hiring a regular maid service to periodically clean our apartment is a great
-                investment. Not only do you save time every week or month by hiring a maid service, but you can rest assured
-                that your apartment will be cleaned in a professional manner. Nothing will be forgotten or undone! You can
-                focus on what is important to you and we can make sure your evironment stays clean and refreshing!</p>
+
+
+            <p class="fs-3"><strong>24 Hour Plumber Service</strong></p>
+            <p>To tackle this, we at H2OBros Plumbing are available to you - 24/7 - 365 days a
+                year.</p>
+            <p>Don’t just rely on an “emergency plumber” or “24 hour plumber near me” search. Call
+                H2OBros Plumbing instead. We’ll have a plumber reach your place in an instant.
+                He’ll get to you quickly, inspect the problem, and solve it ASAP. Whether it be frozen
+                pipes, drain cleaning, sewer cleaning, water heater leaking, etc.</p>
+
+            <p>Tip: If there’s a major leak, turn the main water supply off before you give us a ring. This
+                might be located in your basement, garage, or utility area. This will save you from major
+                damage!</p>
+
+            <p class="fs-3"><strong>24 Hour Plumbing Installations</strong></p>
+            <p>Looking for a plumber for snaking a drain, fixing frozen pipes, new pipes, or even an
+                entirely new sewer line? Don’t trust the first result that pops up in your search for
+                “plumbers near me” or “24 hour plumber near me”. Let our experts from H2OBros
+                Plumbing take care of the job. We’ll ensure your home runs problem-free for years to
+                come! We are the best licensed plumbers in your area.</p>
+
+
+            <p class="fs-3"><strong>Sump Pump Installation</strong></p>
+            <p>Living in a low-lying area? Facing regular flooding in your basement? Its time to
+                install a sump pump. Let our experts have a look and find the best suitable spot for
+                sump pump installation. They’ll provide you with options and guide you in choosing
+                the one best for your situation. Once ordered, you don’t have to worry about a thing.
+                Our plumbers will install it according to the manufacturer’s guidelines. Our sump
+                pump services include Sump pump replacement, Sump pump maintenance, Sump
+
+                pump battery backup, Battery powered sump pump, Basement sump pumps ,
+                Sewage sump pump installation. </p>
+            <p class="fs-3"><strong>Our Plumbing Services</strong></p>
+            <p>Our plumbers are the best in the industry and handle any kind of plumbing services
+                such as plunging a toilet, sewer cleaning, snaking a drain, clog removal, drain
+                cleaning, installing a tankless water heater as well as an electric water heater. You
+                name it, we do it. </p>
+
+
 
         </div>
 

@@ -1,6 +1,6 @@
 @extends('layouts.index')
 @section('title')
-    Cleaning Services | {{ env('APP_NAME') }}
+    H20bros Services | {{ env('APP_NAME') }}
 @endsection
 
 @section('css')
@@ -51,7 +51,7 @@
                     </div>
                     <div class="services-items col-md-12 row row-gap-4 row-gap-lg-5 justify-content-center">
                         <div class="col-12 col-sm-6 col-md-4 item text-center">
-                            <a class="d-flex flex-column gap-2 text-center" href="{{ route('house_cleaning') }}"
+                            <a class="d-flex flex-column gap-2 text-center" href="{{ route('hour_24_plumbers') }}"
                                 class="d-flex flex-column gap-3">
                                 <div class="top-holder">
                                     <div class="img-holder">
@@ -61,7 +61,7 @@
                                     </div>
                                 </div>
                                 <h4 class="text-green-1 fw-bold fs-3 fs-md-5 lh-1-3 lh-md-auto" text-lightgray>
-                                    House Cleaning Services
+                                    24 Hours Plumber Services
                                 </h4>
                                 <p class="paragraph text-lightgray text-ellipsis-3">
                                     We use our homes for everything which is why its important to keep it clean from top to
@@ -70,7 +70,8 @@
                             </a>
                         </div>
                         <div class="col-12 col-sm-6 col-md-4 item">
-                            <a class="d-flex flex-column gap-2 text-center" href="{{ route('post_construct') }}">
+                            <a class="d-flex flex-column gap-2 text-center"
+                                href="{{ route('commercial_plumbing_repair') }}">
                                 <div class="top-holder">
                                     <div class="img-holder">
                                         <img class="img img-fluid lazy rounded-3 lozad" width="295" height="295"
@@ -78,7 +79,7 @@
                                     </div>
                                 </div>
                                 <h4 class="heading fw-bold fs-3 fs-md-5 lh-1-3 lh-md-auto text-green-1">
-                                    Post Construction Cleaning
+                                    Commercial Plumbing Repair
                                 </h4>
                                 <p class="paragraph text-lightgray text-ellipsis-3">
                                     Construction work is always messy: dirt, dust, and grime everywhere! Our trained team
@@ -88,7 +89,7 @@
                             </a>
                         </div>
                         <div class="col-12 col-sm-6 col-md-4 item">
-                            <a class="d-flex flex-column gap-2 text-center" href="{{ route('move_in') }}">
+                            <a class="d-flex flex-column gap-2 text-center" href="{{ route('drain_cleaning') }}">
                                 <div class="top-holder">
                                     <div class="img-holder">
                                         <img class="img img-fluid lazy rounded-3 lozad" width="295" height="295"
@@ -96,7 +97,7 @@
                                     </div>
                                 </div>
                                 <h4 class="heading fw-bold fs-3 fs-md-5 lh-1-3 lh-md-auto text-green-1">
-                                    Move In Cleaning
+                                    Drain Cleaning
                                 </h4>
                                 <p class="paragraph text-lightgray text-ellipsis-3">
                                     When we move to a new place, the last thing we want to think about it cleaniung it after
@@ -108,7 +109,7 @@
                             </a>
                         </div>
                         <div class="col-12 col-sm-6 col-md-4 item">
-                            <a class="d-flex flex-column gap-2 text-center" href="{{ route('move_out') }}">
+                            <a class="d-flex flex-column gap-2 text-center" href="{{ route('bathroom_plumbing') }}">
                                 <div class="top-holder">
                                     <div class="img-holder lozad">
                                         <img class="img img-fluid lazy rounded-3 lozad" width="295" height="295"
@@ -116,7 +117,7 @@
                                     </div>
                                 </div>
                                 <h4 class="heading fw-bold fs-3 fs-md-5 lh-1-3 lh-md-auto text-green-1">
-                                    Move Out Cleaning
+                                    Bathroom Plumbing
                                 </h4>
                                 <p class="paragraph text-lightgray text-ellipsis-3">
                                     After we have packed up all our boxes, we are often too tired to clean the whole
@@ -128,7 +129,7 @@
                             </a>
                         </div>
                         <div class="col-12 col-sm-6 col-md-4 item">
-                            <a class="d-flex flex-column gap-2 text-center" href="{{ route('apart_cleaning') }}">
+                            <a class="d-flex flex-column gap-2 text-center" href="{{ route('hydro_jetting') }}">
                                 <div class="top-holder">
                                     <div class="img-holder">
                                         <img class="img img-fluid lazy rounded-3 lozad" width="295" height="295"
@@ -136,7 +137,7 @@
                                     </div>
                                 </div>
                                 <h4 class="heading fw-bold fs-3 fs-md-5 lh-1-3 lh-md-auto text-green-1">
-                                    Apartment Cleaning
+                                    Hydro Jetting
                                 </h4>
                                 <p class="paragraph text-lightgray text-ellipsis-3">
                                     Our apartments are the center of our lives, but sometimes life is too busy for us to
@@ -148,7 +149,7 @@
                             </a>
                         </div>
                         <div class="col-12 col-sm-6 col-md-4 item">
-                            <a class="d-flex flex-column gap-2 text-center" href="{{ route('green_cleaning') }}">
+                            <a class="d-flex flex-column gap-2 text-center" href="{{ route('water_heaters') }}">
                                 <div class="top-holder">
                                     <div class="img-holder">
                                         <img class="img img-fluid lazy rounded-3 lozad" width="295" height="295"
@@ -157,7 +158,7 @@
                                     </div>
                                 </div>
                                 <h4 class="heading fw-bold fs-3 fs-md-5 lh-1-3 lh-md-auto text-green-1">
-                                    Green Cleaning
+                                    Water Heaters
                                 </h4>
                                 <p class="paragraph text-lightgray text-ellipsis-3">
                                     Our furry friends sometimes make accidents on our clean upholstery and carpet.
@@ -170,7 +171,7 @@
                         </div>
 
                         <div class="col-12 col-sm-6 col-md-4 item">
-                            <a class="d-flex flex-column gap-2 text-center" href="{{ route('comm_cleaning') }}">
+                            <a class="d-flex flex-column gap-2 text-center" href="{{ route('sewer_repair') }}">
                                 <div class="top-holder">
                                     <div class="img-holder">
                                         <img class="img img-fluid lazy rounded-3 lozad" width="295" height="295"
@@ -178,7 +179,7 @@
                                     </div>
                                 </div>
                                 <h4 class="heading fw-bold fs-3 fs-md-5 lh-1-3 lh-md-auto text-green-1">
-                                    Commercial Cleaning
+                                    Sewer Repair
                                 </h4>
                                 <p class="paragraph text-lightgray text-ellipsis-3">
                                     Our furry friends sometimes make accidents on our clean upholstery and carpet.
@@ -190,7 +191,7 @@
                             </a>
                         </div>
                         <div class="col-12 col-sm-6 col-md-4 item">
-                            <a class="d-flex flex-column gap-2 text-center" href="{{ route('maid_cleaning') }}">
+                            <a class="d-flex flex-column gap-2 text-center" href="{{ route('leak_detection') }}">
                                 <div class="top-holder">
                                     <div class="img-holder">
                                         <img class="img img-fluid lazy rounded-3 lozad" width="295" height="295"
@@ -198,7 +199,7 @@
                                     </div>
                                 </div>
                                 <h4 class="heading fw-bold fs-3 fs-md-5 lh-1-3 lh-md-auto text-green-1">
-                                    Maid Cleaning
+                                    Leak Detection
                                 </h4>
                                 <p class="paragraph text-lightgray text-ellipsis-3">
                                     Our furry friends sometimes make accidents on our clean upholstery and carpet.
@@ -210,7 +211,7 @@
                             </a>
                         </div>
                         <div class="col-12 col-sm-6 col-md-4 item">
-                            <a class="d-flex flex-column gap-2 text-center" href="{{ route('res_cleaning') }}">
+                            <a class="d-flex flex-column gap-2 text-center" href="{{ route('sump_pump') }}">
                                 <div class="top-holder">
                                     <div class="img-holder">
                                         <img class="img img-fluid lazy rounded-3 lozad" width="295" height="295"
@@ -218,7 +219,7 @@
                                     </div>
                                 </div>
                                 <h4 class="heading fw-bold fs-3 fs-md-5 lh-1-3 lh-md-auto text-green-1">
-                                    Residential Cleaning
+                                    Sump Pump Services
                                 </h4>
                                 <p class="paragraph text-lightgray text-ellipsis-3">
                                     Car owners can spend hours every day in their vehicles, and
@@ -232,7 +233,7 @@
                             </a>
                         </div>
                         <div class="col-12 col-sm-6 col-md-4 item">
-                            <a class="d-flex flex-column gap-2 text-center" href="{{ route('cleaning_lady') }}">
+                            <a class="d-flex flex-column gap-2 text-center" href="{{ route('water_main') }}">
                                 <div class="top-holder">
                                     <div class="img-holder">
                                         <img class="img img-fluid lazy rounded-3 lozad" width="295" height="295"
@@ -240,7 +241,7 @@
                                     </div>
                                 </div>
                                 <h4 class="heading fw-bold fs-3 fs-md-5 lh-1-3 lh-md-auto text-green-1">
-                                    Cleaning Lady
+                                    Water Main Services
                                 </h4>
                                 <p class="paragraph text-lightgray text-ellipsis-3">
                                     Keeping the office clean and hygienic is essential for a productive work
@@ -250,45 +251,6 @@
                                     fabric and leather furniture and carpets will ensure a safe and clean work
                                     environment with
                                     happy employees!
-                                </p>
-                            </a>
-                        </div>
-                        <div class="col-12 col-sm-6 col-md-4 item">
-                            <a class="d-flex flex-column gap-2 text-center" href="{{ route('deep_cleaning') }}">
-                                <div class="top-holder">
-                                    <div class="img-holder">
-                                        <img class="img img-fluid lazy rounded-3 lozad" width="295" height="295"
-                                            data-src="{{ asset('assets/images/PristineGreen-House-Cleaning---UES-Branch-house-cleaning-services-10021-New-York-deep-cleaning-services-NY.jpg') }}">
-                                    </div>
-                                </div>
-                                <h4 class="heading fw-bold fs-3 fs-md-5 lh-1-3 lh-md-auto text-green-1">
-                                    Deep Cleaning
-                                </h4>
-                                <p class="paragraph text-lightgray text-ellipsis-3">
-                                    The couch is the centerpiece of the living room and over time gets covered in
-                                    dirt, smells,
-                                    and stains. Hiring a professional sofa cleaner is essential to keeping your home
-                                    clean and
-                                    hygienic. Our couch cleaning services include stain removal, odor removal,
-                                    sanitizing,
-                                    deodorizing, and more!!
-                                </p>
-                            </a>
-                        </div>
-                        <div class="col-12 col-sm-6 col-md-4 item">
-                            <a class="d-flex flex-column gap-2 text-center" href="{{ route('house_keeping') }}">
-                                <div class="top-holder">
-                                    <div class="img-holder">
-                                        <img class="img img-fluid lazy rounded-3 lozad" width="295" height="295"
-                                            data-src="{{ asset('assets/images/NY-10021-New-York-PristineGreen-House-Cleaning-UES-Branch-housekeeping-services-house-cleaning-services.jpg') }}">
-                                    </div>
-                                </div>
-                                <h4 class="heading fw-bold fs-3 fs-md-5 lh-1-3 lh-md-auto text-green-1">
-                                    House Keeping
-                                </h4>
-                                <p class="paragraph text-lightgray text-ellipsis-3">
-                                    Having a house keeper saves you so much time! No need to worry about deep cleaning the
-                                    ktichen or bathroom. Keep enjoying life and let us do the dirty work!
                                 </p>
                             </a>
                         </div>

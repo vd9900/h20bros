@@ -1,6 +1,6 @@
 @extends('layouts.index')
 @section('title')
-    Green Cleaning | {{ env('APP_NAME') }}
+    Hydro Jetting| {{ env('APP_NAME') }}
 @endsection
 
 
@@ -27,9 +27,9 @@
         </picture>
         <div class="p-4 p-lg-5 position-absolute bottom-0 w-100 h-100 pb-120">
             <div class="d-flex flex-col justify-content-end gap-4 h-100 py-4">
-                <h1 class="text-green">Green Cleaning </h1>
+                <h1 class="text-green">Hydro Jetting </h1>
                 <h3 class="tex-white text-center text-lg-start">
-                    Get green and non-toxic cleaning services in NYC
+                    Get Hydro Jetting services in NYC
                 </h3>
                 {{-- book now form --}}
                 @include('app.static_components.booknow_form')
@@ -47,31 +47,34 @@
 
 
 
-            <h1 class="text-center text-green fs-1 py-5">GREEN CLEANING</h1>
+            <h1 class="text-center text-green fs-1 py-5">Hydro Jetting</h1>
 
             <p><strong>
-                    Living in the city can be difficult. Lots of noises, smells, stimulation, and yelling cab drivers! When
-                    you get home, you want a safe space that is clean and healthy. We now this too, which is why we use only
-                    certified non-toxic and green chemicals in our cleaning process so you can feel relaxed and safe in your
-                    clean apartment or house.
+                    Don&#39;t let clogged drains and clogged pipes become a headache for you! it&#39;s
+                    inevitable that hair, soap scum, and food particles will accumulate and cause
+                    problems like clogged pipes and sewer backups. Luckily, there is a solution. Hydro
+                    jetting, drain cleaning, and sewer cleaning can fix this issue By using high-pressure
+                    water to blast away blockages, you can prevent these pesky issues and keep your
+                    pipes flowing smoothly.
                 </strong></p>
-            <p class="fs-3"><strong>Only Green and Non-Toxic Products</strong></p>
-            <p>All of our services offer green and non-toxic cleaning so you can be assured your apartment won't smell of
-                synthetic and unpleasant fragrances after our work. All the products we use have been certified by the US
-                EPA as part of their "Safer Choice" program! This means if you have e family, a pet, children, or are an
-                sensitive individual, you need not worry if the chemicals will be harmful or unpleasant!</p>
-            <p class="fs-3"><strong>EPA Certified Chemicals</strong></p>
-            <p>All the products we use are certified by the US EPA as part of their safer choice program. The program aims
-                at certifiying products that are both very low toxicity but also very effective in their purpose. So when we
-                use these products we can be assured that they will not bother the customer and the cleaning power will be
-                very strong! We use these products for all our cleaning from bathroom cleaning, to oven cleaning, to even
-                cleaning your hardwood floors! </p>
-            <p class="fs-3"><strong>Strong Cleaning Power</strong></p>
-            <p>Sometimes, people associate green with weak. This is not the clase with Safer Choice Products! These products
-                have been chosen to fulfil both requirements that they are are low toxicity as well as very effective in
-                their purpose. We use Safer Choice products in all aspects of cleaning, even in the toughest of jobs like
-                oven cleaning. In addition, we thoroughly test each chemical to ensure that it works for our purposes and
-                doesn't have any irritating smells. You will be impressed at the end of our cleaning how effective they are!
+            <p class="fs-3"><strong>Clean Clogged Drain</strong></p>
+            <p>In order to clean out your clogged drains, you might have searched the web for
+                several solutions such as “unclog drain”, “unclog shower drain”, “unclog bathroom
+                sink”. But are you gonna trust just a random search result online? Often, d-i-y
+                solutions tend to make a minor problem worse. Let our experts handle the situation
+                and give us a ring at H2OBros Plumbing.</p>
+            <p class="fs-3"><strong>Drain Cleaning Services</strong></p>
+            <p>Get rid of clogged pipes and clogged drains with hydro jetting
+                Say goodbye to clogged drains and hello to clear pipes with hydro jetting! This
+                powerful technique uses high-pressure water to blast away any debris or build-up,
+                leaving your pipes cleaner than ever before. It’s one of the best ways to clear
+                clogged drains, be it whatever you want, a clean sink drain or a clean shower drain.</p>
+            <p class="fs-3"><strong>Hydro Jetting Cost</strong></p>
+            <p>The cost of hydro jetting services can vary based on the type of service and the
+                seriousness of the problem. Just the average drain clog remover works some days
+                and other days we find ourselves snaking pipes. We offer services such as sewer
+                drain cleaning, unblock shower drains, water pipe blockage removal, catch basin
+                cleaning.
             </p>
 
 

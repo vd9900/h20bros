@@ -54,19 +54,16 @@ Route::prefix('services')->group(function () {
     Route::get('/', [$c, 'index'])->name('services');
 
     //Services
-    Route::get('/house-cleaning-services', [$c, 'house_cleaning'])->name('house_cleaning');
-    Route::get('/post-construction-cleaning', [$c, 'post_construct'])->name('post_construct');
-    Route::get('/move-in-cleaning-services', [$c, 'move_in'])->name('move_in');
-    Route::get('/move-out-cleaning-services', [$c, 'move_out'])->name('move_out');
-    Route::get('/apartment-cleaning-services', [$c, 'apart_cleaning'])->name('apart_cleaning');
-    Route::get('/green-cleaning', [$c, 'green_cleaning'])->name('green_cleaning');
-    Route::get('/commercial-cleaning-services', [$c, 'comm_cleaning'])->name('comm_cleaning');
-    Route::get('/maid-cleaning-service', [$c, 'maid_cleaning'])->name('maid_cleaning');
-    Route::get('/residential-cleaning-services', [$c, 'res_cleaning'])->name('res_cleaning');
-    Route::get('/deep-cleaning-services', [$c, 'deep_cleaning'])->name('deep_cleaning');
-    Route::get('/cleaning-lady', [$c, 'cleaning_lady'])->name('cleaning_lady');
-    Route::get('/house-keeping', [$c, 'house_keeping'])->name('house_keeping');
-
+    Route::get('/24-hour-plumbers', [$c, 'hour_24_plumbers'])->name('hour_24_plumbers');
+    Route::get('/commercial-plumbing-repair', [$c, 'commercial_plumbing_repair'])->name('commercial_plumbing_repair');
+    Route::get('/drain-cleaning', [$c, 'drain_cleaning'])->name('drain_cleaning');
+    Route::get('/bathroom-plumbing', [$c, 'bathroom_plumbing'])->name('bathroom_plumbing');
+    Route::get('/hydro-jetting', [$c, 'hydro_jetting'])->name('hydro_jetting');
+    Route::get('/water-heaters', [$c, 'water_heaters'])->name('water_heaters');
+    Route::get('/sewer-repair', [$c, 'sewer_repair'])->name('sewer_repair');
+    Route::get('/leak-detection', [$c, 'leak_detection'])->name('leak_detection');
+    Route::get('/sump-pump', [$c, 'sump_pump'])->name('sump_pump');
+    Route::get('/water-main', [$c, 'water_main'])->name('water_main');
 });
 
 // ROUTES FOR AUTHINTECATED USERS
@@ -142,14 +139,13 @@ Route::middleware(['auth'])->group(function () {
         Route::prefix('invoices')->group(function () {
             $invoices_controller = App\Http\Controllers\Dashboard\InvoicesController::class;
             Route::get('/', [$invoices_controller, 'index'])->name('invoices.index');
-            
+
             Route::get('/create', [$invoices_controller, 'create'])->name('invoices.create');
             Route::post('/create', [$invoices_controller, 'store'])->name('invoices.create');
 
             Route::get('/edit/{id}', [$invoices_controller, 'edit'])->name('invoices.edit');
             Route::put('/edit/{id}', [$invoices_controller, 'update'])->name('invoices.edit');
         });
-
     });
 });
 
@@ -243,6 +239,3 @@ Auth::routes();
 //     Route::get("ues-manhattan", [$c, 'ues_manhattan'])->name("ues_manhattan");
 //     Route::get("ridgewood-queens", [$c, 'ridgewood_queens'])->name("ridgewood_queens");
 // });
-
-
-

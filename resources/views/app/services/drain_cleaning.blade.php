@@ -1,6 +1,6 @@
 @extends('layouts.index')
 @section('title')
-    Commercial Cleaning | {{ env('APP_NAME') }}
+    Drain Cleaning| {{ env('APP_NAME') }}
 @endsection
 
 
@@ -27,9 +27,9 @@
         </picture>
         <div class="p-4 p-lg-5 position-absolute bottom-0 w-100 h-100 pb-120">
             <div class="d-flex flex-col justify-content-end gap-4 h-100 py-4">
-                <h1 class="text-green">Commercial Cleaning</h1>
+                <h1 class="text-green">Drain Cleaning</h1>
                 <h3 class="tex-white text-center text-lg-start">
-                    Trusted and recommended commercial cleaner in NYC, specializing in deep cleaning your commercial spaces
+                    Trusted and recommended Drain Cleaning in NYC, specializing in drain Cleaning your commercial spaces
                 </h3>
                 {{-- book now form --}}
                 @include('app.static_components.booknow_form')
@@ -45,38 +45,46 @@
     <section class="">
         <div class="container py-5 main-content-section text-lightgray">
 
-            <h1 class="text-center text-green fs-1 py-5">COMMERCIAL CLEANING
+            <h1 class="text-center text-green fs-1 py-5">Drain Cleaning
             </h1>
 
 
+
             <p><strong>
-                    Commercial spaces often the get the most abuse. Whether it be customers coming in and out of the
-                    store all day, employees use the office sapce day and night, or a big dusty mess from after a
-                    construction project. Whatever it is, we have your back! Best of all, we only use non-toxic cleaning
-                    products to deep and effectively clean all surfaces so you can be assured that no sensitive employee
-                    or customer will be turned off by our work.
+                    Clogged drains can cause water to run back up, leading to flooding and water
+                    damage. These clogged drains also attract pests and cause foul odors. To avoid the
+                    hassle of clearing a clogged sink, clogged shower drain, or clogged bathtub, give the
+                    experts at H2OBros Plumbing a ring and we’ll have you set up in no time.
                 </strong></p>
-            <p><a class="fs-3" href="{{ route('post_construct') }}"><strong>Post-Construction Cleaning</strong></a></p>
-            <p>Construction can be a messay job! Dust and dirt seem to make their way into every crevice after a project
-                and post-project cleanup is essential for the presentation of your work as well as the safety of the
-                customer. Let us do the hard work and take care of your post construction cleaning jobs! We have
-                specific processes to capture all the dirt and dust without damaging possibly delicate pieces like
-                hardwood floors and glass mirrors. You can be assured that your new projec will look spotless after our
-                work and your customer will be impressed!</p>
-            <p class="fs-3"><strong>Office Cleaning</strong></p>
-            <p>Over time, office spaces can become dirty just from daily wear and tear from employees using it during
-                their daily tasks. The kitchen, the bathroom, the desks, and more need attention. Let PristineGreen take
-                care of office cleaning for you on a one-time or regular basis! We deep clean all areas and surfaces
-                with only non-toxic cleaning products so you can be assured that the result will be excellent and safe!
-                Enhance your productivity and keep your employees happy and safe with our office cleaning services!</p>
-            <p class="fs-3"><strong>Store Cleaning</strong></p>
-            <p>Custaomers are constantly coming in and out of your store and over time, things can look a little dingy
-                and dull. Keep your store pristine with our commerical store cleaning services! From cleaning displays
-                to carpet cleaning to upholstery cleaning, we have you covered at every angle. Our non-toxic products
-                ensure a great clean as well as one that doesn't upset sensitive customers with unpleasant smells.
-                Impress your customers with our commercial store cleaning services!</p>
 
 
+            <p class="fs-3"><strong>Drain Cleaning Services</strong></p>
+
+            <p>Clogged drains can cause water to run back up, leading to flooding and water
+                damage. These clogged drains also attract pests and cause foul odors. You may go
+                ahead and try a D-I-Y solution like snaking a drain or try the best drain cleaner out
+                there. But if you wanna avoid risky solutions then contact us and our team of experts
+                will use the best techniques to unclog a drain and get your drain free in no time. We
+                also offer services for a clogged kitchen sink, clogged bathtub drain, etc.</p>
+
+
+
+            <p class="fs-3"><strong>Sewer Cleaning</strong></p>
+            <p>Water leaks can be anywhere. They can be as simple as a slab leak, leaking toilet,
+                water leaking from a ceiling, ceiling leak, or simply a leaking pipe. Ignoring a water
+                leak can cause structural damage, and mold growth, and pose a serious health risk.
+                Look out for symptoms such as a sudden spike in water bill, ceiling sagging or
+                warped floors, discolored ceiling, bumpy paint or bumpy wallpaper. If any of these
+                symptoms pop up at your place, call us immediately and we could help you prevent a
+                major plumbing issue such as overflooding.</p>
+
+
+            <p class="fs-3"><strong>Sewer Repair</strong></p>
+            <p>When a major problem pops up in your sewer line, just cleaning won’t solve the
+                issue. You need to get repair services. H2OBros Plumbing offers you sewer line
+                repair and drain repair services. Our team of experts can take care of anything right
+                from drain field repair and drain pipe repair to sewer pipe repair and trechnless
+                sewer line repair.</p>
         </div>
     </section>
 

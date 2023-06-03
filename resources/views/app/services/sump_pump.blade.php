@@ -1,6 +1,6 @@
 @extends('layouts.index')
 @section('title')
-    Move In Cleaning | {{ env('APP_NAME') }}
+    Sump Pump Services | {{ env('APP_NAME') }}
 @endsection
 
 @section('meta')
@@ -30,9 +30,9 @@
 
         <div class="p-4 p-lg-5 position-absolute bottom-0 w-100 h-100 pb-120">
             <div class="d-flex flex-col justify-content-end gap-4 h-100 py-4">
-                <h1 class="text-green">Move In Cleaning Services</h1>
+                <h1 class="text-green">Sump Pump Services</h1>
                 <h3 class="tex-white text-center text-lg-start">
-                    Trusted and recommended move in cleaning service provider in NYC
+                    Trusted and recommended Sump Pump services provider in NYC
                 </h3>
                 {{-- book now form --}}
                 @include('app.static_components.booknow_form')
@@ -46,38 +46,36 @@
     <!-- main content section  -->
     <section class="">
         <div class="container py-5 main-content-section text-lightgray">
-            <h1 class="text-center text-green fs-1 py-5">MOVE IN CLEANING SERVICES</h1>
+            <h1 class="text-center text-green fs-1 py-5">Sump Pump Services</h1>
 
             <p><strong>
-                    When we move into our new space, we are looking for a fresh start, physically and mentally. The last
-                    thing you want to do after boxing and moving all your possessions is worrying about cleaning your new
-                    apartment. Let PristineGreen take care of your move in cleaning! From bedrooms, to bathrooms, to the
-                    kitchen, we clean all surfaces with non-toxic and certified green products so you can feel immediately
-                    at-home when you arrive in your new apartment!
+                    Water heaters are an essential part of our everyday lives. Providing us with the
+                    comfort and convenience of hot water whenever we need it. A faulty and
+                    malfunctioning one can need you to call plumbing services for either water heater
+                    repair or water heater replacement. We at H2OBros Plumbing provide all kinds of
+                    plumbing repair and installation services regardless of whether you have a tankless
+                    water heater, hot water heater, electric water heater, solar water heater, or gas water
+                    heater.
                 </strong></p>
-            <p class="fs-3"><a href="/services/apartment-cleaning"><strong>Apartment Cleaning</strong></a></p>
-            <p>When you move into your new apartment, you want it to be fresh. No dirty floors, no stains toilets, no greasy
-                kitchen counters. Or, you want to ensure, on your own terms, that it is cleaned to your standards before you
-                move in. That's why we offer apartment cleaning servides as part of our move in leaning services program.
-                Using only green products, we clean your new apartment from top to bottom. No discovering hidden dust
-                bunnies! You already rented the apartment so your landlord doesn't care as much about the apartment's
-                cleanliness as you do now. Hire us to make it pristine!</p>
-            <p class="fs-3"><a href="/services/commerical-cleaning"><strong>Commerical Cleaning</strong></a></p>
-            <p>When you move into a new commerical space, its needs to be perfectly clean so your customers feel safe and
-                welcome in your new shop. Commerical cleaning can be daunting, with stained walls, dirty carpets or tile, or
-                even odor issues. Let our professional team do a deep clean on your commerical space to bring it excellent
-                standards.</p>
-            <p class="fs-3"><a href="/services/deep-cleaning"><strong>Deep Cleaning</strong></a></p>
-            <p>AFter you sign the lease, its time to clean the apartment thoroughly. Previous tenants can leave your
-                apartment looking pretty dirty. Greasy kitchens, moldy bathrooms, and dull hardwood floors. Let our cleaning
-                crew work magic on your apartment and bring it to excellent standards! Our team knows how to professionally
-                deep clean apartments and houses. No corner will be left untouched!
+            <p class="fs-3"><strong>Sump Pump Installation</strong></p>
+            <p>Now you could just search the web for “sump pump installation near me” or
+                “sump pump maintenance near me”. But are you gonna trust a random local plumber
+                with such an important task? When it comes to sump pump plumbing, you need an
+                expert. We at H2O Bros Plumbing have a team of widely experienced plumbers in
+                sewage ejector pumps, basement sump pumps, and even the entire basement
+                sump pump system.</p>
 
-            <p class="fs-3"><a href="/services/green-cleaning"><strong>Green Cleaning</strong></a></p>
-            <p>All of our services offer green and non-toxic cleaning so you can be assured your apartment won't smell of
-                synthetic and unpleasant fragrances after our work. All the products we use have been certified by the US
-                EPA as part of their "Safer Choice" program! This means if you have e family, a pet, children, or are an
-                sensitive individual, you need not worry if the chemicals will be harmful or unpleasant!</p>
+            <p class="fs-3"><strong>Sump Pump Repair</strong></p>
+            <p>Sump pumps are an entire system consisting of several pieces of equipment, tools,
+                and pipes that function together to prevent flooding. It needs timely upkeep to fix
+                leaking pipes or battery backups. We offer sump pump services such as sump pump
+                replacement, sump pump maintenance, sump pump float replacement, sump pump
+                battery replacement, sump pump switch replacement.</p>
+            <p class="fs-3"><strong>Sump Pump Cost</strong></p>
+            <p>The cost to install sump pump and french drain can vary based on the type of sump
+                pump you choose to install. There are several types such as ejector pumps,
+                submersible pumps, and pedestal pumps. Our team of experts have experience in
+                installing each of those.
             </p>
         </div>
 

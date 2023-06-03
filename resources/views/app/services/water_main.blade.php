@@ -1,6 +1,6 @@
 @extends('layouts.index')
 @section('title')
-    Move Out Cleaning | {{ env('APP_NAME') }}
+    Water Main Services| {{ env('APP_NAME') }}
 @endsection
 
 @section('meta')
@@ -23,9 +23,9 @@
 
         <div class="p-4 p-lg-5 position-absolute bottom-0 w-100 h-100 pb-120">
             <div class="d-flex flex-col justify-content-end gap-4 h-100 py-4">
-                <h1 class="text-green">Move Out Cleaning</h1>
+                <h1 class="text-green">Water Main Services</h1>
                 <h3 class="tex-white text-center text-lg-start">
-                    Restore your commercial or residential space with professional move out cleaning services in NYC
+                    Get professional Water Main services in NYC
                 </h3>
                 {{-- book now form --}}
                 @include('app.static_components.booknow_form')
@@ -40,58 +40,33 @@
     <section class="">
         <div class="container py-5 main-content-section text-lightgray">
 
-            <h1 class="text-center text-green fs-1 py-5">MOVE OUT CLEANING SERVICES</h1>
-
+            <h1 class="text-center text-green fs-1 py-5">Water Main Services</h1>
 
 
             <p><strong>
-                    Living in NYC, we are always busy. Whether its putting in the hours at work, going to the gym, taking
-                    care of the kids, grocery shopping or more, cleaning the apartment often falls lower in the priority
-                    list. That's ok! PristineGreen House Cleaning is here to offer you apartment cleaning services! From the
-                    kitchen to the bathroom, we have all your cleaning needs handled!
+                    Your business&#39;s water line is a crucial component of your plumbing system,
+                    responsible for distributing and maintaining your water supply. Factors such as time,
+                    corrosion, extreme weather, or exposure to certain substances can cause water
+                    main problems, leading to frozen pipes, leaking pipes, burst pipes, and potential
+                    flooding. Don&#39;t worry - at H2OBros Plumbing, our expert plumbers are here to help.
+                    We&#39;ll assess your water main issues and determine whether repair or replacement is
+                    needed to ensure an uninterrupted water supply.
                 </strong></p>
-            <p><a class="fs-3" href="{{ route('green_cleaning') }}"><strong>Only Green and Non-Toxic Products</strong></a>
-            </p>
-            <p>All of our services offer green and non-toxic cleaning so you can be assured your apartment won't smell of
-                synthetic and unpleasant fragrances after our work. All the products we use have been certified by the US
-                EPA as part of their "Safer
-                Choice" program! This means if you have e family, a pet, children, or are an sensitive individual, you
-                need not worry if the chemicals will be harmful or unpleasant!</p>
-            <p><a class="fs-3" href="{{ route('move_in') }}"><strong>Move In Cleaning
-                        Services</strong></a></p>
-            <p>When you move into a new apartment, you are looking for a fresh start. Sometimes the previous tenant
-                or
-                landlord didn't have the same care as you do. That's why you need move in cleaning services for your
-                apartment. We will clean, scrub and polish every nook and cranny so you can be assured that the
-                space you
-                will be living in is totally clean!</p>
-            <p><a class="fs-3" href="{{ route('move_out') }}"><strong>Move Out Cleaning
-                        Services</strong></a></p>
-            <p>Oftentime, in our leases, it is required that you leave the apartment as clean as when you moved into
-                it.
-                Moving out can be stressful and cleaning the apartment may just be one last thing you don't want to
-                do. Let
-                us take care of your move out cleaning services. From deep cleaning the kitchen to steam cleaning
-                the
-                carpets to washing the floors and baseboards, we have it all covered for you! </p>
-            <p><a class="fs-3" href="{{ route('deep_cleaning') }}"><strong>Deep Cleaning Services</strong></a>
-            </p>
-            <p>Our lives are busy and we can forget, week after week, to do a deep cleaning. That's why its
-                important to
-                hire us for your deep cleaning services which will scrub and clean all the nooks and crannies in
-                your
-                apartment bringing it to a refreshingly clean state. We do everything from mopping thte floors,
-                cleaning the
-                oven and cabinets, washing the windows, scrubbing the tub, and more! You will feel clean and at home
-                again
-                in your apartment after we help!</p>
-            <p><a class="fs-3" href="{{ route('maid_cleaning') }}"><strong>Maid Services</strong></a></p>
-            <p>We often have busy lives and hiring a regular maid service to periodically clean our apartment is a great
-                investment. Not only do you save time every week or month by hiring a maid service, but you can rest assured
-                that your apartment will be cleaned in a professional manner. Nothing will be forgotten or undone! You can
-                focus on what is important to you and we can make sure your evironment stays clean and refreshing!</p>
+            <p class="fs-3"><strong>Water Line Repair</strong></p>
+            <p>Water lines in homes or businesses can develop leaking pipes, mineral deposits, or
+                corroded pipes over time, requiring the replacement of the entire line. These issues
+                like burst pipes, pipes freezing, and low water pressure may require water line repair
+                or water line replacement depending on the situation. At H2OBros Plumbing, we
+                have the expertise to assess your water line issues and determine the best solution
+                for your needs. Contact us if you notice any symptoms.</p>
 
-
+            <p class="fs-3"><strong>Emergency Plumbing Repair</strong></p>
+            <p>We understand that some issues will need to be dealt with promptly, which is why we
+                offer fast and reliable service that minimizes disruptions. Don’t just go with the first
+                search result for “24 hour plumber near me” or “emergency plumber near me”. With
+                years of experience in the water line plumbing industry, we are the top choice for any
+                water line issues that you face. With our 24 hour plumber service, you can have a
+                plumber at your place within the hour! Contact us today to schedule an appointment!</p>
 
         </div>
     </section>

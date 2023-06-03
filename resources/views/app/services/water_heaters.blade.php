@@ -1,6 +1,6 @@
 @extends('layouts.index')
 @section('title')
-    House Cleaning | {{ env('APP_NAME') }}
+    Water Heaters| {{ env('APP_NAME') }}
 @endsection
 @section('schema')
     {{-- <script type="application/ld+json">
@@ -34,9 +34,9 @@
         </picture>
         <div class="p-4 p-lg-5 pb-120  position-absolute bottom-0 w-100 h-100">
             <div class="d-flex flex-col justify-content-end gap-4 h-100 py-4">
-                <h1 class="text-green">House Cleaning</h1>
+                <h1 class="text-green">Water Heaters</h1>
                 <h3 class="tex-white text-center text-lg-start">
-                    Top House Cleaning Service Provider in NYC
+                    Top Water Heaters Service Provider in NYC
                 </h3>
                 {{-- book now form --}}
                 @include('app.static_components.booknow_form')
@@ -51,46 +51,38 @@
     <!-- main content section  -->
     <section>
         <div class="container py-5 main-content-section text-lightgray">
-            <h1 class="text-center text-green fs-1 py-5">HOUSE CLEANING</h1>
+            <h1 class="text-center text-green fs-1 py-5">Water Heaters</h1>
 
             <p><strong>
-                    Keeping the house clean is of utmost importance for physical, mental, and social reasons. A clean house
-                    facilitates clean living; No dust, dirt, and grime to flare up allergies and cause sickness. For mental
-                    reasons, a clean home puts the mind at ease. You can focus on what is most important to you, not a dirty
-                    kitchen or a smell bathroom. A clean home allows you to feel good in your own space. And finally, a
-                    clean house gives a great impression to guests; It makes them feel safe and welcome, whereas a dirty one
-                    may ruin that first impression and make them feel uncomfortable. Whatever is most improtant to you, our
-                    house cleaning services will suite your needs!
+                    Water heaters are an essential part of our everyday lives. Providing us with the
+                    comfort and convenience of hot water whenever we need it. A faulty and
+                    malfunctioning one can need you to call plumbing services for either water heater
+                    repair or water heater replacement. We at H2OBros Plumbing provide all kinds of
+                    plumbing repair and installation services regardless of whether you have a tankless
+                    water heater, hot water heater, electric water heater, solar water heater, or gas water
+                    heater.
                 </strong></p>
-            <p><a class="fs-3" href="/services/house-keep"><strong>House Cleaning Services</strong></a></p>
-            <p>From the kitchen to the bathroom, we know how to professionally clean every nook and cranny so your space
-                looks fresh and new again! We use professional tools, techniques, and only non-toxic but powerful chemicals
-                to bring about an amzing clean in your house. Wheter you are looking for a deep lean or a light weekly
-                clean, we have all the packages and options to fit your needs!</p>
-            <p><a class="fs-3" href="/services/deep-cleaning-services"><strong>Deep Cleaning Services</strong></a></p>
-            <p>Over time, dirt, grime, and dust build up in all the hard to reach palces in our homes. Often ovens, above
-                cabinets, deep in our drawers, under beds and couches, and other hard to reach places begin to get grimey.
-                Let PristineGreen take care of this issue for you! With our deep cleaning services part of our house
-                cleaning packages, we get in all the tight spots to clean thoroughly. Our experienced cleaners will amaze
-                you and how clean your space can become in a short period of time!</p>
-            <p><a class="fs-3" href="/services/residential-cleaning-services"><strong>Residential Cleaning
-                        Services</strong></a></p>
-            <p>Our residential cleaning services as part of our house cleaning packages take care of cleaning of all your
-                personal spaces from apartments, country homes, garages, and more! We have a variety of tools, techniques,
-                and chemicals to tackle any type of job that you need done. From dirty garage floors, to stained toilets, to
-                caked ovens, we can tackle any job with ease. </p>
-            <p><a class="fs-3" href="/services/apartment-cleaning-services"><strong>Apartment Cleaning
-                        Services</strong></a></p>
-            <p>Our homes have become the center of our lives. From working, to spending time with the family. to
-                entertaiing, our apartments are getting more use than ever before and it is shows. Regular cleaning is now
-                needed to keep the spaces hygienic and clean. At PristineGreen we have a variety of apartment cleaning
-                services to suit your needs from one-time deep cleanings to regular weekly cleanings, we have al the
-                packages and options you want and need.</p>
-            <p><a class="fs-3" href="/services/green-cleaning"><strong>Green Cleaning</strong></a></p>
-            <p>All of our services offer green and non-toxic cleaning so you can be assured your apartment won't smell of
-                synthetic and unpleasant fragrances after our work. All the products we use have been certified by the US
-                EPA as part of their "Safer Choice" program! This means if you have e family, a pet, children, or are an
-                sensitive individual, you need not worry if the chemicals will be harmful or unpleasant!</p>
+            <p class="fs-3"><strong>Water Heater Installation</strong></p>
+            <p>Just moved into your new home? You must be all over the web, searching for
+                plumbing services by typing in phrases such as, “plumbers near me”. But are you
+                just gonna trust a random local plumber online with your new home? No, right? Let
+                experts do the heavy lifting. Be it a tankless water heating or a roof fitted solar water
+                heater, we’ll install it for you in no time.</p>
+
+            <p class="fs-3"><strong>Hot Water Heater Repair</strong></p>
+            <p>When it comes to water heater repair there is no one who does it better than us. We
+                take care of all the plumbing end-to-end reducing all hassle at your end. Our team
+                will reach you, inspect and get done with the repair in no time at an affordable cost.
+                The cost of repairs could vary based on what needs to be fixed, for e.g. We offer
+                repair services for : gas water heater repair, hot water repair, tankless water heater
+                repair, solar water heater repair.</p>
+            <p class="fs-3"><strong>Water Heater Installation Cost</strong></p>
+            <p>The cost of a water heater installation varies depending on several factors. The cost
+                can vary depending on the type of water heater. Water heaters are of several types
+                such as hot water heater, tankless water heater, electric water heater, solar water
+                heater, or gas water heater. Also factors like the size and quality of the water heater
+                affect the cost.
+            </p>
         </div>
 
     </section>

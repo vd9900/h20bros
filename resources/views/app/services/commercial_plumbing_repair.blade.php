@@ -1,6 +1,6 @@
 @extends('layouts.index')
 @section('title')
-    CLEANING LADY | {{ env('APP_NAME') }}
+    Commercial Plumbing Repair | {{ env('APP_NAME') }}
 @endsection
 
 
@@ -27,9 +27,9 @@
         </picture>
         <div class="p-4 p-lg-5 position-absolute bottom-0 w-100 h-100 pb-120">
             <div class="d-flex flex-col justify-content-end gap-4 h-100 py-4">
-                <h1 class="text-green">Cleaning Lady</h1>
+                <h1 class="text-green">Commercial Plumbing Repair</h1>
                 <h3 class="tex-white text-center text-lg-start">
-                    Get cleaning lady services for your apartment or house in NYC
+                    Get Commercial Plumbing Repair services for your apartment or house in NYC
                 </h3>
                 {{-- book now form --}}
                 @include('app.static_components.booknow_form')
@@ -45,42 +45,43 @@
     <section class="">
         <div class="container py-5 main-content-section text-lightgray">
 
-            <h1 class="text-center text-green fs-1 py-5">CLEANING LADY </h1>
+            <h1 class="text-center text-green fs-1 py-5">Commercial Plumbing Repair </h1>
+
 
 
             <p><strong>
-                    Keeping the home clean can take a lot of work and time. In NYC, we are all busy and finding the time
-                    every week to make sure the house is spotless is not always easy or possible. Let us help you keep your
-                    home pristine with our cleaning lady services!
+                    If you are a commercial property owner or manager, you know how important it is to
+                    keep your plumbing system running smoothly. Leaking water heaters, overflowing
+                    toilets, clogged pipes, or frozen pipes can negatively impact your business’
+                    reputation. It is only natural for customers to assume that the business owner is
+                    neglecting other parts of the business. That&#39;s where H2OBros Plumbing comes in.
+                    Our team of expert plumbers is here to help you with all of your commercial plumbing
+                    needs, from routine maintenance to emergency repairs.
                 </strong></p>
 
 
-            <p><a class="fs-3" href="{{ route('house_cleaning') }}"><strong>House Cleaning Services</strong></a></p>
-            <p>Our comprehensive house cleaning services will leave you amazed and how thorough and professional our
-                house cleaning and cleaning lady services are. From the bathroom to the kitchen to the bedroom, we have
-                you covered! Spills, food, dust, grime, mold, and any other unpleasant circumstances in your home are no
-                match for our powerful cleaning team!</p>
-            <p><a class="fs-3" href="{{ route('deep_cleaning') }}"><strong>Deep Cleaning Services</strong></a></p>
-            <p>Sometimes cleaning our house or apartment gets out of hand and dirt, grime, and other foreign substances
-                begin to build up. Not to worry! Our Deep cleaning servcies for our cleaing lady services have the
-                solutions you need. Don't worry if there is mold in the bathroom. We can clean it. Black oven? We can
-                clean it. Hardwood floors that need extra attention? We can clean it. We also use only non-toxic and
-                green products in our cleaning so you will feel assured knowing our cleaning is safe for you and your
-                family.
-            </p>
-            <p><a class="fs-3" href="{{ route('res_cleaning') }}"><strong>Residential Cleaning Services</strong></a></p>
-            <p>From apartments, to houses, to townhouses, we have all the residential cleaning services you need.
-                Whether you are looking for a deep cleaning of the bathrooms and kitchen or just a periodic general
-                cleaning of the whole house, we have a variety of options that will suit your needs. Our cleaning
-                technicians are highly trained and use top of the line cleaning products and equiptment so you can be
-                sure that our cleaning is done professionally, safely, and quickly saving you time and money! </p>
-            <p><a class="fs-3" href="{{ route('move_out') }}"><strong>Move Out Cleaning Services</strong></a></p>
-            <p>The last thing we want to think about after we have spent days, sweat, and tears moving out all the
-                furniture in our old apartment and transferring it to our new one is to clean the apartment. Dirt,
-                grime, and dust have collected in all the corners and a proper cleaning is in order. Hire our cleaning
-                lady services to perform move out cleaning services! You will be so relieved to have your old apartment
-                cleaned completely so you won't have to incur any fees from your landlord and can peacefully move to
-                your next home stress free!</p>
+            <p class="fs-3"><strong>24/7 Emergency Plumber</strong></p>
+
+            <p>We understand that downtime can be costly for your business, which is why we offer
+                fast and reliable service that minimizes disruptions. Don’t just go with the first search
+                result for “24 hour plumber near me” or “emergency plumber near me”. With years of
+                experience in the industry and a commitment to customer satisfaction, we are the top
+                choice for commercial plumbing repair services. With our 24 hour plumber service,
+                you can have a plumber at your place within the hour! Contact us today to schedule
+                an appointment!</p>
+
+
+
+            <p class="fs-3"><strong>Leak Detection Services</strong></p>
+            <p>Water leaks can be anywhere. They can be as simple as a slab leak, leaking toilet,
+                water leaking from a ceiling, ceiling leak, or simply a leaking pipe. Ignoring a water
+                leak can cause structural damage, and mold growth, and pose a serious health risk.
+                Look out for symptoms such as a sudden spike in water bill, ceiling sagging or
+                warped floors, discolored ceiling, bumpy paint or bumpy wallpaper. If any of these
+                symptoms pop up at your place, call us immediately and we could help you prevent a
+                major plumbing issue such as overflooding.</p>
+
+
 
 
 

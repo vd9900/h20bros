@@ -37,36 +37,32 @@
                                 <div class="container-fluid mobb">
                                     <div class="row">
                                         <div class="col-md-6">
-                                            <div class="drop-item"><a href="{{ route('house_cleaning') }}">House
-                                                    Cleaning Services</a>
+                                            <div class="drop-item"><a href="{{ route('hour_24_plumbers') }}">24 Hours
+                                                    Plumber Services</a>
                                             </div>
-                                            <div class="drop-item"><a href="{{ route('post_construct') }}">Post
-                                                    Construction Cleaning</a></div>
-                                            <div class="drop-item"><a href="{{ route('move_in') }}">Move In Cleaning
-                                                    Services</a></div>
-                                            <div class="drop-item"><a href="{{ route('move_out') }}">Move Out Cleaning
-                                                    Services</a></div>
-                                            <div class="drop-item"><a href="{{ route('apart_cleaning') }}">Apartment
-                                                    Cleaning </a></div>
-                                            <div class="drop-item"><a href="{{ route('cleaning_lady') }}">Cleaning
-                                                    Lady</a>
-                                            </div>
+                                            <div class="drop-item"><a
+                                                    href="{{ route('commercial_plumbing_repair') }}">Commercial Plumbing
+                                                    Repair</a></div>
+                                            <div class="drop-item"><a href="{{ route('drain_cleaning') }}">Drain
+                                                    Cleaning</a></div>
+                                            <div class="drop-item"><a href="{{ route('bathroom_plumbing') }}">Bathroom
+                                                    Plumbing</a></div>
+                                            <div class="drop-item"><a href="{{ route('hydro_jetting') }}">Hydro
+                                                    Jetting</a></div>
+
 
                                         </div>
                                         <div class="col-md-6">
-                                            <div class="drop-item"><a href="{{ route('green_cleaning') }}">Green
-                                                    Cleaning</a></div>
-                                            <div class="drop-item"><a href="{{ route('comm_cleaning') }}">Commercial
-                                                    Cleaning</a></div>
-                                            <div class="drop-item"><a href="{{ route('maid_cleaning') }}">Maid Cleaning
-                                                </a></div>
-                                            <div class="drop-item"><a href="{{ route('res_cleaning') }}">Residential
-                                                    Cleaning </a></div>
-                                            <div class="drop-item"><a href="{{ route('deep_cleaning') }}">Deep Cleaning
-                                                </a>
-                                            </div>
+                                            <div class="drop-item"><a href="{{ route('water_heaters') }}">Water
+                                                    Heaters</a></div>
+                                            <div class="drop-item"><a href="{{ route('sewer_repair') }}">Sewer
+                                                    Repair</a></div>
+                                            <div class="drop-item"><a href="{{ route('leak_detection') }}">Leak
+                                                    Detection</a></div>
+                                            <div class="drop-item"><a href="{{ route('sump_pump') }}">Sump Pump
+                                                    Services </a></div>
                                             <div class="drop-item" style="border-bottom:unset !important;"><a
-                                                    href="{{ route('house_keeping') }}">House Keeping</a>
+                                                    href="{{ route('water_main') }}">Water Main Services</a>
                                             </div>
 
                                             {{-- <div class="col-md-4 av-yelp-g">

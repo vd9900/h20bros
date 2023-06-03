@@ -1,6 +1,6 @@
 @extends('layouts.index')
 @section('title')
-    House Keeping | {{env('APP_NAME')}}
+    Leak Detection | {{ env('APP_NAME') }}
 @endsection
 
 @section('schema')
@@ -17,18 +17,18 @@
         <!-- bg-img -->
         <picture class="lozad">
             <source media="(max-width: 878px)"
-                srcset="{{ asset('assets/images/NY-10021-New-York-PristineGreen-House-Cleaning-UES-Branch-housekeeping-services-house-cleaning-services.jpg') }}">
+                srcset="{{ asset('assets/images/NY-10021-New-York-PristineGreen-House-Cleaning-UES-Branch-maid-cleaning-service-house-cleaning-services.jpg') }}">
             <source media="(min-width: 878px)"
-                srcset="{{ asset('assets/images/NY-10021-New-York-PristineGreen-House-Cleaning-UES-Branch-housekeeping-services-house-cleaning-services.jpg') }}">
+                srcset="{{ asset('assets/images/NY-10021-New-York-PristineGreen-House-Cleaning-UES-Branch-maid-cleaning-service-house-cleaning-services.jpg') }}">
             <img class="service-bannner-img h-img-600"
-                src="{{ asset('assets/images/NY-10021-New-York-PristineGreen-House-Cleaning-UES-Branch-housekeeping-services-house-cleaning-services.jpg') }}"
+                src="{{ asset('assets/images/NY-10021-New-York-PristineGreen-House-Cleaning-UES-Branch-maid-cleaning-service-house-cleaning-services.jpg') }}"
                 alt="cough cleaning">
         </picture>
         <div class="p-4 p-lg-5 position-absolute bottom-0 w-100 h-100 pb-120">
             <div class="d-flex flex-col justify-content-end gap-4 h-100 py-4">
-                <h1 class="text-green">House Keeping</h1>
+                <h1 class="text-green">Leak Detection</h1>
                 <h3 class="tex-white text-center text-lg-start">
-                    Get your home or apartment professionally cleaned in NYC!
+                    Trusted and recommended Leak Detection service im NYC
                 </h3>
                 {{-- book now form --}}
                 @include('app.static_components.booknow_form')
@@ -44,42 +44,41 @@
     <section id="main-content-cleaning" class="py-7 main-content-cleaning-service">
         <div class="container py-5 main-content-section text-lightgray">
 
-            <h1 class="text-center text-green fs-1 py-5">House Keeping</h1>
-
+            <h1 class="text-center text-green fs-1 py-5">Leak Detection</h1>
 
 
             <p><strong>
-                    Dirt and dust can gather in all corners of the home. From the windows, to the oven, to the toilet and
-                    tub, to the baseboards to the floors themselves. It's everywhere! Spending the time to clean the
-                    apartment may prove too much effort in our already busy lives in NYC&gt; Hire PristineGreen to take a
-                    load of your shoulders with our house keeping services which will suit whatever needs you have.
+                    Have you ever experienced a sudden increase in your water bill or noticed damp
+                    spots on your walls or ceiling? You might have a water leak problem! It&#39;s a common
+                    plumbing issue that needs immediate attention before it may lead to more significant
+                    and expensive problems. Water leaks can be anywhere, it could be a slab leak,
+                    leaking toilet, water leaking from a ceiling, ceiling leak, or simply a leaking pipe
+                    Ignoring a water leak can cause structural damage, and mold growth, and pose a
+                    serious health risk.
                 </strong></p>
-            <p class="fs-3"><strong>One-Time Cleaning or Monthly/Weekly Cleaning</strong></p>
-            <p>We have a variety of packages to suit whatever your needs may be. If you are having a party and need the
-                apartment pristine, give us a call to schedule a <a href="{{ route('deep_cleaning') }}">deep cleaning</a> of
-                your
-                home. If you are looking to have your apartment cleabed regulary, have one of our maids come by bi-monthly
-                or weekly to ensure your space is always fresh and inviting. Whatever service you need, we have flexibility
-                and options to accommodate you!</p>
-            <p class="fs-3"><a href="{{ route('apart_cleaning') }}"><strong>Apartment Cleaning</strong></a></p>
-            <p>Our apartments are the center of our lives now! It is the space where we work, the space where we cook and
-                eat, the space where we play, and the space where we entertain! Because the apartment gets so much use now,
-                it gets dirty quickly. Hire our house keeping services to perform apartment cleaning for you today! Our
-                expierenced maids and cleaners, using professional equipment, know how to clean all the nooks and crannies
-                of your space using only non-toxic products in a very short period of time!</p>
-            <p class="fs-3"><a href="{{ route('res_cleaning') }}"><strong>Residential Cleaning Services</strong></a></p>
-            <p>From garages, to apartments, to houses, to any personal space, we offer residential cleaning services to suit
-                whatever your cleaning needs may be! Our experienced and trained cleaners use top of the line equipments,
-                techniques, and chemicals to clean up any mess, small or large. From caked ovens, to stained toilets, to
-                dirty hardwood floors, we know the tools and methods to safetly and effectively clean any situation.</p>
-            <p class="fs-3"><a href="{{ route('green_cleaning') }}"><strong>Only Green and Non-Toxic Products</strong></a>
+            <p class="fs-3"><strong>Water Leak Detection</strong></p>
+            <p>Water leak detection is the key to solving this issue, and it involves finding and fixing
+                the leaks within your plumbing system. Luckily, our team of qualified plumbers is
+                trained and experienced in locating even the trickiest leaks be it a water heater
+                leaking, toilet leaking at base, leaky faucet, toilet leaking from tank, leaky bathtub
+                faucet, or a slab leak. We use specialized leak detection equipment such as acoustic
+                sensors and high-definition cameras to pinpoint the exact location of the leak without
+                causing any damage to your property.</p>
+
+            <p class="fs-3"><strong>Water Leak Symptoms</strong></p>
+            <p>A water leak can be identified with the help of several symptoms such as a sudden
+                spike in water bill, ceiling sagging or warped floors, discolored ceiling, bumpy paint
+                or bumpy wallpaper, sound of running water despite no taps in use, water meter
+                continues to run when no faucets are on, Mold or musty odors in certain areas of
+                your home. If any of these symptoms tend to be present in your home, give our
+                experts at H2OBros Plumbing a ring.</p>
+            <p class="fs-3"><strong>Emergency Leak Detection</strong></p>
+            <p>Noticing symptoms that need to be taken care of urgently? Don’t be quick to search
+                the web for “24 hour plumbers” or “plumbers near me”. Call us and we’ll have our
+                emergency plumbers at your door in no time. We also offer services such as drain
+                cleaning, sewer cleaning, hydro jetting, water heater repair and installation, sump
+                pump services, etc.
             </p>
-            <p>All of our services offer green and non-toxic cleaning so you can be assured your apartment won't smell of
-                synthetic and unpleasant fragrances after our work. All the products we use have been certified by the US
-                EPA as part of their "Safer Choice" program! This means if you have e family, a pet, children, or are an
-                sensitive individual, you need not worry if the chemicals will be harmful or unpleasant!</p>
-
-
 
         </div>
     </section>

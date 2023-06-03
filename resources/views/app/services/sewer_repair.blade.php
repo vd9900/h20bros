@@ -1,6 +1,6 @@
 @extends('layouts.index')
 @section('title')
-    Maid Cleaning | {{ env('APP_NAME') }}
+    Sewer Repair| {{ env('APP_NAME') }}
 @endsection
 
 @section('schema')
@@ -17,18 +17,18 @@
         <!-- bg-img -->
         <picture class="lozad">
             <source media="(max-width: 878px)"
-                srcset="{{ asset('assets/images/NY-10021-New-York-PristineGreen-House-Cleaning-UES-Branch-maid-cleaning-service-house-cleaning-services.jpg') }}">
+                srcset="{{ asset('assets/images/NY-10021-New-York-PristineGreen-House-Cleaning-UES-Branch-housekeeping-services-house-cleaning-services.jpg') }}">
             <source media="(min-width: 878px)"
-                srcset="{{ asset('assets/images/NY-10021-New-York-PristineGreen-House-Cleaning-UES-Branch-maid-cleaning-service-house-cleaning-services.jpg') }}">
+                srcset="{{ asset('assets/images/NY-10021-New-York-PristineGreen-House-Cleaning-UES-Branch-housekeeping-services-house-cleaning-services.jpg') }}">
             <img class="service-bannner-img h-img-600"
-                src="{{ asset('assets/images/NY-10021-New-York-PristineGreen-House-Cleaning-UES-Branch-maid-cleaning-service-house-cleaning-services.jpg') }}"
+                src="{{ asset('assets/images/NY-10021-New-York-PristineGreen-House-Cleaning-UES-Branch-housekeeping-services-house-cleaning-services.jpg') }}"
                 alt="cough cleaning">
         </picture>
         <div class="p-4 p-lg-5 position-absolute bottom-0 w-100 h-100 pb-120">
             <div class="d-flex flex-col justify-content-end gap-4 h-100 py-4">
-                <h1 class="text-green">Maid Cleaning</h1>
+                <h1 class="text-green">Sewer Repair</h1>
                 <h3 class="tex-white text-center text-lg-start">
-                    Trusted and recommended maid cleaning service im NYC
+                    Get your professionally Sewer Repair in NYC!
                 </h3>
                 {{-- book now form --}}
                 @include('app.static_components.booknow_form')
@@ -44,38 +44,37 @@
     <section id="main-content-cleaning" class="py-7 main-content-cleaning-service">
         <div class="container py-5 main-content-section text-lightgray">
 
-            <h1 class="text-center text-green fs-1 py-5">Maid Cleaning</h1>
+            <h1 class="text-center text-green fs-1 py-5">Sewer Repair</h1>
+
 
 
             <p><strong>
-                    We all have busy lives in NYC and the last th8ing we want to do when we come home from a hard day's
-                    work is clean! Cleaning can be time consuming and we have more important things on our minds. Hire
-                    PristineGreen maid cleaning servides to take care of your housekeeping needs. From deep cleans to
-                    periodic freshenings, we have all the options you are looking for!
+                    Sewers often tend to get clogged and stuck leading to the spreading of foul odors
+                    and flooding. We need to clean sewer drains in order to avoid this issue. We at H2O
+                    Bros Plumbing offer all kinds of services to clear your clogged sewer such as:
                 </strong></p>
-            <p class="fs-3"><a href="{{ route('house_cleaning') }}"><strong>House Cleaning Services</strong></a></p>
-            <p>In order to be productive, we need our surroundings clean and hygienic. Our house cleaning services
-                provide your this service without you lifting a finger! We clean thoroughly all surfaces, from the
-                kitchen to the bedroom to the bathroom so you can feel clean and refresehd in your new space. We also
-                use only green and non-toxic products in our cleaning so no harsh fragrances that will bother you for
-                hours after we leave.</p>
-            <p class="fs-3"><a href="{{ route('apart_cleaning') }}"><strong>Apartment Cleaning Services</strong></a></p>
-            <p>Our apartment is our life. We work in it, play it in, have movie nights in it, and more! Over time, it
-                can get messy and do we want to spend our precious time cleaning it? Hire PristineGreen's maid services
-                to perform apartment cleanign at your home! We do everything from deep cleanign to regular cleaning so
-                whatever need you hae, we can accommodate you! </p>
-            <p class="fs-3"><a href="{{ route('deep_cleaning') }}"><strong>Deep Cleaning Services</strong></a></p>
-            <p>With all the people and pets going in and out of our apartments and houses, they can get pretty dirty.
-                Grime, oil, dust, and more eventually builds up in all the nooks and crannies throughout your home. As
-                part of our maid services, we offer deep cleaning where we inspect and clean all parts of your home.
-                After our work, it will feel like you are walking into a completely new refreshing space! From caked
-                dirty ovens, to stinky bathrooms, to damaged hardwood floors, we can clean it all! </p>
-            <p class="fs-3"><a href="{{ route('res_cleaning') }}"><strong>Residential Cleaning Services</strong></a></p>
-            <p>As part of our maid services, we offer a variety of residential cleaning services to th residents of NYC.
-                Whether you live in an apartment, house, or townhouse, we have the cleaning services you need. OUr maid
-                cleaning services offer residential cleaning so if you need just your kitchen cleaned, your garage, or
-                your whole house, one of our proessional maids, using only non-toxic products will come and transform
-                your space!</p>
+            <p class="fs-3"><strong>Sewer Line Inspection</strong></p>
+            <p>A clogged sewer calls for a thorough sewer inspection by an expert. You can try
+                clearing out the clogged sewer line yourself through d-i-y solutions such as sewer
+                snaking. We will check out the problem and offer the most effective and affordable
+                solution for your sewer line repair.</p>
+
+            <p class="fs-3"><strong>Sewer Line Leak Detection</strong></p>
+            <p>Attention all property owners! If you want to keep your home or business running
+                smoothly, it&#39;s essential to invest in sewer line inspections and sewer line leak
+                detection services. These services help prevent water waste and reduce utility bills,
+                also, regular maintenance can increase the value of your property! To fix your sewer
+                line problems we offer you services like sewer line replacement, sewer line cleanout
+                and sewer pipe repair.</p>
+            <p class="fs-3"><strong>Trenchless Sewer Line Repair</strong></p>
+            <p>Traditional sewer line repair involves digging a trench to access the pipe, which can
+                be disruptive to your yard and landscaping. trenchless plumbing services are much
+                less invasive. These sewer lines as strong as they are may also need maintenance.
+                For this, we offer trenchless sewer repair services. We offer trenchless sewer
+                plumbing services like trenchless pipe replacement, trenchless sewer replacement,
+                trenchless pipe relining, trenchless sewer line, trenchless piping, trenchless drain
+                repair, trenchless sewer pipe replacement.
+            </p>
 
 
         </div>
